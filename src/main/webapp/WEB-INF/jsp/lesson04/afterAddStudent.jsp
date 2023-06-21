@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="container">
-		<!-- ${} : EL(Expression Language) -->
+	
 		<h1>학생 정보</h1>
 		<table class="table">
 			<thead>
@@ -25,11 +25,11 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>${result.id }</td>
-					<td>${result.name }</td>
-					<td>${result.phoneNumber }</td>
-					<td>${result.email }</td>
-					<td>${result.dreamJob }</td>
+					<td>${result.id}</td>
+					<td>${result.name}</td>
+					<td>${result.phoneNumber}</td>
+					<td>${result.email}</td>
+					<td>${result.dreamJob}</td>
 				</tr>
 			</tbody>
 		</table>
