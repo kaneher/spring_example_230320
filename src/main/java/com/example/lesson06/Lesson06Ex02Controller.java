@@ -34,11 +34,11 @@ public class Lesson06Ex02Controller {
 		
 		// DB 조회
 		/*
-		 * select count(1) from `new_user` where `name` = '신보람';
-		 * 
-		 * 0 : false
-		 * 0이 아닌 수 : true
-		 */
+		* select count(1) from `new_user` where `name` = '신보람';
+		* 
+		* 0 : false
+		* 0이 아닌 수 : true
+		*/
 		boolean existUser = userBO.existUserByName(name);
 		
 		// {"isDuplication":true}
