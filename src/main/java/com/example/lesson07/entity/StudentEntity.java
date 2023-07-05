@@ -23,7 +23,7 @@ import lombok.ToString;
 @Builder(toBuilder = true) // setter 대용
 @Getter // getter
 @Table(name = "new_student") // 테이블명에 언더바 붙어있을 때 꼭 추가한다.
-@Entity // 이 클래스는 Entity다
+@Entity(name = "new_student") // 이 클래스는 Entity다
 public class StudentEntity {
 	@Id // pk
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // auto increment
